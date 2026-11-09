@@ -1,0 +1,15 @@
+{
+  "name": "amec-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Backend AMEC NUTRITION — pedidos y pasarela de pagos Culqi (Perú)",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "demo": "node scripts/demo.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
